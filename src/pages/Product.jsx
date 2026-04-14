@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
@@ -111,8 +111,8 @@ function ReviewsSection({ product }) {
   const defaultReviews = [
     { id: 'r1', name: 'Sarah K.', location: 'London, UK', rating: 5, date: '2024-11-01', verified: true, body: 'Genuinely impressive product. I could see a difference within the first week. The formulation feels premium and the results back that up.' },
     { id: 'r2', name: 'Martine D.', location: 'Paris, France', rating: 4, date: '2024-10-15', verified: true, body: 'Very good product. Takes patience — about 3 weeks to see results — but worth it. Would buy again.' },
-    { id: 'r3', name: 'Helena V.', location: 'Berlin, Germany', rating: 5, date: '2024-09-28', verified: true, body: 'Finally something that actually works. I\'ve recommended it to three friends already. The ingredient transparency is why I trust LUMEA.' },
-    { id: 'r4', name: 'Aine M.', location: 'Cork, Ireland', rating: 5, date: '2024-09-10', verified: true, body: 'I appreciate that LUMEA explains what each ingredient does. This isn\'t marketing fluff — it\'s a brand that respects its customers.' },
+    { id: 'r3', name: 'Helena V.', location: 'Berlin, Germany', rating: 5, date: '2024-09-28', verified: true, body: 'Finally something that actually works. I\'ve recommended it to three friends already. The ingredient transparency is why I trust VELANCE.' },
+    { id: 'r4', name: 'Aine M.', location: 'Cork, Ireland', rating: 5, date: '2024-09-10', verified: true, body: 'I appreciate that VELANCE explains what each ingredient does. This isn\'t marketing fluff — it\'s a brand that respects its customers.' },
   ]
 
   const displayReviews = reviews.length > 0 ? reviews : defaultReviews
@@ -195,7 +195,7 @@ export default function Product() {
     '@type': 'Product',
     name: product.name,
     description: product.shortDescription,
-    brand: { '@type': 'Brand', name: 'LUMEA' },
+    brand: { '@type': 'Brand', name: 'VELANCE' },
     offers: {
       '@type': 'Offer',
       price: product.price,
@@ -212,9 +212,9 @@ export default function Product() {
   return (
     <>
       <Helmet>
-        <title>{product.name} — LUMEA</title>
+        <title>{product.name} — VELANCE</title>
         <meta name="description" content={product.shortDescription} />
-        <meta property="og:title" content={`${product.name} — LUMEA`} />
+        <meta property="og:title" content={`${product.name} — VELANCE`} />
         <meta property="og:description" content={product.shortDescription} />
         <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
       </Helmet>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ShoppingBag, Menu, X, User, ChevronDown } from 'lucide-react'
@@ -73,7 +73,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex-shrink-0 group">
               <span className="font-display text-2xl md:text-3xl font-light text-charcoal tracking-[0.12em] uppercase group-hover:text-sage transition-colors duration-200">
-                Lumea
+                Velance
               </span>
               <span className="block text-2xs font-body tracking-[0.25em] uppercase text-gold mt-0.5 leading-none">
                 Made for women in their prime
@@ -163,7 +163,7 @@ export default function Navbar() {
               {/* Header */}
               <div className="flex items-center justify-between px-6 py-5 border-b border-ivory-200">
                 <span className="font-display text-xl font-light tracking-[0.12em] uppercase text-charcoal">
-                  Lumea
+                  Velance
                 </span>
                 <button
                   onClick={() => setMobileOpen(false)}

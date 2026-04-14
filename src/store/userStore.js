@@ -1,4 +1,4 @@
-import { create } from 'zustand'
+﻿import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { supabase } from '../lib/supabase'
 
@@ -81,7 +81,7 @@ const useUserStore = create(
       clearError: () => set({ error: null }),
     }),
     {
-      name: 'lumea-user',
+      name: 'velance-user',
       partialize: (state) => ({ user: state.user, profile: state.profile }),
     }
   )

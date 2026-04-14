@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
@@ -124,8 +124,8 @@ export default function Routine() {
   return (
     <>
       <Helmet>
-        <title>The LUMEA Routine — AM/PM Anti-Aging Skincare System</title>
-        <meta name="description" content="The complete LUMEA morning and evening skincare routine for women in their 40s and 50s. Six products. One system. Formulated for hormonal skin." />
+        <title>The VELANCE Routine — AM/PM Anti-Aging Skincare System</title>
+        <meta name="description" content="The complete VELANCE morning and evening skincare routine for women in their 40s and 50s. Six products. One system. Formulated for hormonal skin." />
       </Helmet>
 
       {/* Hero */}
@@ -136,7 +136,7 @@ export default function Routine() {
             Six products. One complete routine.
           </h1>
           <p className="body-lg text-charcoal-100 max-w-2xl">
-            Every LUMEA product is designed to work with the others. Use the full routine for the best results — or start with one product and build from there. Each step addresses a specific consequence of oestrogen decline.
+            Every VELANCE product is designed to work with the others. Use the full routine for the best results — or start with one product and build from there. Each step addresses a specific consequence of oestrogen decline.
           </p>
         </div>
       </div>
@@ -248,7 +248,7 @@ export default function Routine() {
               },
               {
                 q: 'What if I have very sensitive skin?',
-                a: 'All LUMEA products are formulated without synthetic fragrance, parabens, or harsh preservatives. The Midnight Mask is calibrated for reactive skin — the AHAs are at a concentration specifically chosen to be effective without causing irritation in perimenopausal skin.',
+                a: 'All VELANCE products are formulated without synthetic fragrance, parabens, or harsh preservatives. The Midnight Mask is calibrated for reactive skin — the AHAs are at a concentration specifically chosen to be effective without causing irritation in perimenopausal skin.',
               },
             ].map(({ q, a }) => (
               <div key={q} className="border-b border-ivory-200 pb-6">

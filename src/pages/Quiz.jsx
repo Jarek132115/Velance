@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
 import { ArrowLeft, ArrowRight, RotateCcw } from 'lucide-react'
@@ -247,8 +247,8 @@ export default function Quiz() {
   return (
     <>
       <Helmet>
-        <title>Find Your Ritual — LUMEA Skincare Quiz</title>
-        <meta name="description" content="Take the LUMEA 5-step quiz to find your personalised skincare and wellness ritual for perimenopause and beyond." />
+        <title>Find Your Ritual — VELANCE Skincare Quiz</title>
+        <meta name="description" content="Take the VELANCE 5-step quiz to find your personalised skincare and wellness ritual for perimenopause and beyond." />
       </Helmet>
 
       {/* Hero */}
@@ -256,7 +256,7 @@ export default function Quiz() {
         <div className="container-xl py-14 md:py-20 text-center">
           <p className="label-xs text-sage-100 mb-3">Personalised ritual</p>
           <h1 className="font-display text-display-md md:text-display-lg font-light mb-4">
-            Find your LUMEA ritual
+            Find your VELANCE ritual
           </h1>
           <p className="body-lg text-sage-100 max-w-md mx-auto">
             Answer 5 honest questions. Get three products matched to your life.

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -6,7 +6,7 @@ export default function CookieBanner() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const consent = localStorage.getItem('lumea-cookie-consent')
+    const consent = localStorage.getItem('velance-cookie-consent')
     if (!consent) {
       // Delay to avoid blocking above-the-fold
       const timer = setTimeout(() => setVisible(true), 1200)
@@ -15,12 +15,12 @@ export default function CookieBanner() {
   }, [])
 
   const accept = () => {
-    localStorage.setItem('lumea-cookie-consent', 'all')
+    localStorage.setItem('velance-cookie-consent', 'all')
     setVisible(false)
   }
 
   const essential = () => {
-    localStorage.setItem('lumea-cookie-consent', 'essential')
+    localStorage.setItem('velance-cookie-consent', 'essential')
     setVisible(false)
   }
 

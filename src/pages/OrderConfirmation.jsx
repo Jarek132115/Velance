@@ -1,4 +1,4 @@
-import { useSearchParams, Link } from 'react-router-dom'
+﻿import { useSearchParams, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { CheckCircle, Package, Mail, Truck, ArrowRight } from 'lucide-react'
@@ -24,13 +24,13 @@ const steps = [
 
 export default function OrderConfirmation() {
   const [params] = useSearchParams()
-  const orderNumber = params.get('order') || 'LM-XXXXX'
+  const orderNumber = params.get('order') || 'VL-XXXXX'
   const email = params.get('email') || ''
 
   return (
     <>
       <Helmet>
-        <title>Order confirmed — LUMEA</title>
+        <title>Order confirmed — VELANCE</title>
         <meta name="robots" content="noindex" />
       </Helmet>
 

@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
@@ -15,7 +15,7 @@ const values = [
   },
   {
     label: 'Hormone-first formulation',
-    body: 'Every LUMEA formula starts with one question: what does oestrogen decline do to this part of the skin, and what does the evidence say addresses it? Not what does the trend cycle say, and not what margins allow.',
+    body: 'Every VELANCE formula starts with one question: what does oestrogen decline do to this part of the skin, and what does the evidence say addresses it? Not what does the trend cycle say, and not what margins allow.',
   },
   {
     label: 'Honest positioning',
@@ -24,7 +24,7 @@ const values = [
 ]
 
 const milestones = [
-  { year: '2024', event: 'LUMEA founded — first formulas developed with SelfNamed, Riga' },
+  { year: '2024', event: 'VELANCE founded — first formulas developed with SelfNamed, Riga' },
   { year: '2025', event: 'EU Cosmetics Regulation certification completed · First 500 customers' },
   { year: '2026', event: 'European launch across 7 markets · Full six-product range released' },
 ]
@@ -33,8 +33,8 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>Our Story — LUMEA Anti-Aging Skincare</title>
-        <meta name="description" content="Why we built LUMEA — luxury anti-aging skincare for women in their 40s and 50s, formulated around the hormonal reality that most skincare brands ignore." />
+        <title>Our Story — VELANCE Anti-Aging Skincare</title>
+        <meta name="description" content="Why we built VELANCE — luxury anti-aging skincare for women in their 40s and 50s, formulated around the hormonal reality that most skincare brands ignore." />
       </Helmet>
 
       {/* Hero — sage background */}
@@ -48,7 +48,7 @@ export default function About() {
           >
             <p className="label-xs text-sage-100 mb-5">Our story</p>
             <h1 className="font-display text-display-md md:text-display-lg lg:text-display-xl font-light text-cream mb-8 text-balance">
-              We built LUMEA because we couldn&#39;t find what we were looking for.
+              We built VELANCE because we couldn&#39;t find what we were looking for.
             </h1>
             <p className="body-lg text-sage-100 leading-relaxed">
               Skincare that acknowledged what hormonal change actually does to skin — and formulated specifically around that reality — was almost non-existent. So we built it.
@@ -109,7 +109,7 @@ export default function About() {
                   <div className="text-center p-8">
                     <span className="font-display text-7xl font-light text-sage-200 block">L</span>
                     <span className="font-display text-lg font-light text-sage-400 tracking-[0.25em] uppercase mt-2 block">
-                      Lumea
+                      Velance
                     </span>
                     <span className="label-xs text-gold mt-3 block">EU-certified · Founded 2024</span>
                   </div>

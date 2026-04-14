@@ -1,4 +1,4 @@
-import { loadStripe } from '@stripe/stripe-js'
+﻿import { loadStripe } from '@stripe/stripe-js'
 
 const publishableKey = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || 'pk_test_placeholder'
 
@@ -11,7 +11,7 @@ export const getStripe = () => {
   return stripePromise
 }
 
-// Stripe Elements appearance config — matches LUMEA brand
+// Stripe Elements appearance config — matches VELANCE brand
 export const stripeElementsAppearance = {
   theme: 'flat',
   variables: {

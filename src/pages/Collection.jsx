@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+﻿import { useParams, Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import ProductGrid from '../components/product/ProductGrid'
 import { useProducts } from '../hooks/useProducts'
@@ -21,7 +21,7 @@ export default function Collection() {
   return (
     <>
       <Helmet>
-        <title>{collection.name} Collection — LUMEA</title>
+        <title>{collection.name} Collection — VELANCE</title>
         <meta name="description" content={collection.description} />
       </Helmet>
 

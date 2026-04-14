@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+﻿import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
 import { Helmet } from 'react-helmet-async'
@@ -127,7 +127,7 @@ function NewsletterSection() {
     if (!gdpr) { toast.error('Please confirm you\'re happy to receive emails.'); return }
     setLoading(true)
     await new Promise(r => setTimeout(r, 700))
-    toast.success('You\'re in. Welcome to LUMEA.')
+    toast.success('You\'re in. Welcome to VELANCE.')
     setEmail(''); setGdpr(false); setLoading(false)
   }
 
@@ -156,7 +156,7 @@ function NewsletterSection() {
                   className="flex-1 px-5 py-4 bg-white/10 border border-white/20 rounded-sm text-cream placeholder-sage-200 focus:outline-none focus:border-white/50 font-body text-sm"
                 />
                 <Button type="submit" variant="white" size="lg" loading={loading} className="flex-shrink-0">
-                  Join LUMEA
+                  Join VELANCE
                 </Button>
               </div>
               <label className="flex items-start gap-3 text-left cursor-pointer">
@@ -167,7 +167,7 @@ function NewsletterSection() {
                   className="mt-1 w-4 h-4 accent-cream flex-shrink-0"
                 />
                 <span className="text-xs text-sage-100 leading-relaxed">
-                  I&#39;m happy to receive LUMEA emails. Unsubscribe anytime. We will never share your data.{' '}
+                  I&#39;m happy to receive VELANCE emails. Unsubscribe anytime. We will never share your data.{' '}
                   <Link to="/privacy" className="underline hover:text-cream">Privacy Policy</Link>.
                 </span>
               </label>
@@ -189,9 +189,9 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>LUMEA — Luxury Anti-Aging Skincare for Women 40+</title>
+        <title>VELANCE — Luxury Anti-Aging Skincare for Women 40+</title>
         <meta name="description" content="Luxury anti-aging skincare formulated for the hormonal skin of women in their 40s and 50s. EU-certified. Clinical actives. Honest science." />
-        <meta property="og:title" content="LUMEA — Finally. Skincare that understands what your hormones are doing." />
+        <meta property="og:title" content="VELANCE — Finally. Skincare that understands what your hormones are doing." />
         <meta property="og:description" content="Luxury anti-aging skincare for women in their 40s and 50s. Formulated around the biological reality of oestrogen decline." />
       </Helmet>
 
@@ -272,7 +272,7 @@ export default function Home() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-8">
                     <span className="font-display text-8xl md:text-9xl font-extralight text-sage-200 block leading-none">L</span>
-                    <span className="font-display text-xl font-light text-sage-400 tracking-[0.2em] uppercase mt-2 block">Lumea</span>
+                    <span className="font-display text-xl font-light text-sage-400 tracking-[0.2em] uppercase mt-2 block">Velance</span>
                     <span className="label-xs text-gold mt-3 block">6 products. One complete routine.</span>
                   </div>
                 </div>
@@ -320,7 +320,7 @@ export default function Home() {
               Six products. One complete routine.
             </h2>
             <p className="body-lg text-charcoal-100 max-w-xl mx-auto">
-              Every LUMEA product is formulated to work as part of a morning and evening routine. Start with one. Build from there.
+              Every VELANCE product is formulated to work as part of a morning and evening routine. Start with one. Build from there.
             </p>
           </FadeIn>
 
@@ -428,7 +428,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Why LUMEA ────────────────────────────────────────────────────── */}
+      {/* ── Why VELANCE ────────────────────────────────────────────────────── */}
       <section className="section-py bg-charcoal text-cream overflow-hidden">
         <div className="container-xl">
           <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
@@ -460,7 +460,7 @@ export default function Home() {
               </FadeIn>
               <FadeIn delay={0.15}>
                 <p className="body-base text-charcoal-100 mb-8 leading-relaxed">
-                  Every LUMEA product is formulated around the hormonal reality of skin in the 40s and 50s: the thinning, the reactivity, the loss of glow, the texture changes. We address the cause, not just the visible effect.
+                  Every VELANCE product is formulated around the hormonal reality of skin in the 40s and 50s: the thinning, the reactivity, the loss of glow, the texture changes. We address the cause, not just the visible effect.
                 </p>
               </FadeIn>
               <FadeIn delay={0.2}>

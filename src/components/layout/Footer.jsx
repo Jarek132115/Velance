@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Camera, Play, Share2, ArrowRight } from 'lucide-react'
 import toast from 'react-hot-toast'
@@ -36,7 +36,7 @@ export default function Footer({ onCookieSettings }) {
   const handleNewsletter = async (e) => {
     e.preventDefault()
     if (!gdprChecked) {
-      toast.error('Please confirm you\'re happy to receive emails from LUMEA.')
+      toast.error('Please confirm you\'re happy to receive emails from VELANCE.')
       return
     }
     if (!email || !email.includes('@')) {
@@ -46,7 +46,7 @@ export default function Footer({ onCookieSettings }) {
     setSubmitting(true)
     // Simulate API call
     await new Promise((r) => setTimeout(r, 800))
-    toast.success('You\'re in. Welcome to LUMEA.')
+    toast.success('You\'re in. Welcome to VELANCE.')
     setEmail('')
     setGdprChecked(false)
     setSubmitting(false)
@@ -80,7 +80,7 @@ export default function Footer({ onCookieSettings }) {
                   disabled={submitting}
                   className="flex items-center justify-center gap-2 px-6 py-3.5 bg-cream text-sage font-body font-medium text-sm uppercase tracking-widest rounded-sm hover:bg-ivory transition-colors disabled:opacity-60 whitespace-nowrap"
                 >
-                  {submitting ? 'Joining…' : 'Join LUMEA'}
+                  {submitting ? 'Joining…' : 'Join VELANCE'}
                   {!submitting && <ArrowRight size={16} />}
                 </button>
               </div>
@@ -92,7 +92,7 @@ export default function Footer({ onCookieSettings }) {
                   className="mt-0.5 w-4 h-4 accent-cream flex-shrink-0 cursor-pointer"
                 />
                 <span className="text-xs text-sage-100 leading-relaxed">
-                  I&#39;m happy to receive LUMEA emails. You can unsubscribe at any time. We will never share your data with third parties. View our{' '}
+                  I&#39;m happy to receive VELANCE emails. You can unsubscribe at any time. We will never share your data with third parties. View our{' '}
                   <Link to="/privacy" className="underline hover:text-cream transition-colors">Privacy Policy</Link>.
                 </span>
               </label>
@@ -108,7 +108,7 @@ export default function Footer({ onCookieSettings }) {
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-4">
               <span className="font-display text-2xl font-light tracking-[0.12em] uppercase text-cream">
-                Lumea
+                Velance
               </span>
             </Link>
             <p className="body-sm text-charcoal-50 mb-6 max-w-xs leading-relaxed">
@@ -208,7 +208,7 @@ export default function Footer({ onCookieSettings }) {
               ))}
             </div>
             <p className="text-xs font-body text-charcoal-100 text-center md:text-right">
-              © {new Date().getFullYear()} LUMEA Ltd. All rights reserved.<br className="md:hidden" />
+              © {new Date().getFullYear()} VELANCE Ltd. All rights reserved.<br className="md:hidden" />
               <span className="hidden md:inline"> · </span>Registered in Ireland. Company No. 789456.
             </p>
           </div>

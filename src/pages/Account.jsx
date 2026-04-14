@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 import { User, Package, Settings } from 'lucide-react'
 import { useAuth } from '../hooks/useAuth'
 import Button from '../components/ui/Button'
@@ -9,7 +9,7 @@ export default function Account() {
   return (
     <>
       <Helmet>
-        <title>My Account — LUMEA</title>
+        <title>My Account — VELANCE</title>
         <meta name="robots" content="noindex" />
       </Helmet>
 
@@ -28,7 +28,7 @@ export default function Account() {
             {[
               { icon: Package, label: 'My orders', desc: 'View your order history and track deliveries.' },
               { icon: User, label: 'Profile', desc: 'Update your personal details and preferences.' },
-              { icon: Settings, label: 'Subscriptions', desc: 'Manage your active LUMEA subscriptions.' },
+              { icon: Settings, label: 'Subscriptions', desc: 'Manage your active VELANCE subscriptions.' },
             ].map(({ icon: Icon, label, desc }) => (
               <div key={label} className="bg-cream rounded-md shadow-card p-6">
                 <div className="w-10 h-10 rounded-full bg-sage-50 flex items-center justify-center mb-4">
@@ -44,7 +44,7 @@ export default function Account() {
             <div className="w-16 h-16 rounded-full bg-ivory flex items-center justify-center mx-auto mb-6">
               <User size={24} className="text-sage-200" />
             </div>
-            <h2 className="font-display text-2xl font-light text-charcoal mb-3">Sign in to LUMEA</h2>
+            <h2 className="font-display text-2xl font-light text-charcoal mb-3">Sign in to VELANCE</h2>
             <p className="text-sm text-charcoal-100 mb-8">Access your orders, subscriptions, and saved preferences.</p>
             <Button variant="primary" fullWidth className="mb-3">Sign in</Button>
             <Button variant="secondary" fullWidth>Create account</Button>

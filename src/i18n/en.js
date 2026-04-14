@@ -1,4 +1,4 @@
-// LUMEA — English (en) strings
+﻿// VELANCE — English (en) strings
 // Ready for translation to: fr, de, nl, es, it
 
 export const en = {
@@ -74,7 +74,7 @@ export const en = {
     gdprConsent: 'I agree to receive order updates by email. We will never share your data.',
   },
   quiz: {
-    title: 'Find your LUMEA ritual',
+    title: 'Find your VELANCE ritual',
     subtitle: 'Answer 5 questions. Get a personalised recommendation.',
     progress: 'Question {{current}} of {{total}}',
     back: 'Back',
@@ -86,12 +86,12 @@ export const en = {
     retake: 'Retake quiz',
   },
   newsletter: {
-    headline: 'Join the LUMEA community',
+    headline: 'Join the VELANCE community',
     sub: 'Honest information about perimenopause, skincare, and wellness — no filler.',
     placeholder: 'Your email address',
     cta: 'Join',
-    gdpr: 'I\'m happy to receive LUMEA emails. Unsubscribe anytime. No spam, ever.',
-    success: 'You\'re in. Welcome to LUMEA.',
+    gdpr: 'I\'m happy to receive VELANCE emails. Unsubscribe anytime. No spam, ever.',
+    success: 'You\'re in. Welcome to VELANCE.',
   },
   footer: {
     tagline: 'Made for women in their prime.',

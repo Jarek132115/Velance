@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom'
+﻿import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Button from '../components/ui/Button'
 
 export default function NotFound() {
   return (
     <>
-      <Helmet><title>Page not found — LUMEA</title></Helmet>
+      <Helmet><title>Page not found — VELANCE</title></Helmet>
       <div className="min-h-[70vh] flex items-center justify-center">
         <div className="text-center px-4">
           <p className="font-display text-8xl font-light text-sage-100 mb-4">404</p>

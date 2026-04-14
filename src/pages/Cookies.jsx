@@ -1,4 +1,4 @@
-import { Helmet } from 'react-helmet-async'
+﻿import { Helmet } from 'react-helmet-async'
 
 const cookieTypes = [
   { name: 'Essential cookies', description: 'Required for the website to function. Cannot be disabled. Includes session management and cart storage.', always: true },
@@ -10,7 +10,7 @@ export default function Cookies() {
   return (
     <>
       <Helmet>
-        <title>Cookie Policy — LUMEA</title>
+        <title>Cookie Policy — VELANCE</title>
       </Helmet>
       <div className="bg-ivory border-b border-ivory-200">
         <div className="container-xl py-12">

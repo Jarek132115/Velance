@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js'
@@ -323,7 +323,7 @@ export default function Checkout() {
   return (
     <>
       <Helmet>
-        <title>Checkout — LUMEA</title>
+        <title>Checkout — VELANCE</title>
         <meta name="robots" content="noindex" />
       </Helmet>
 

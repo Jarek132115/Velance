@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+﻿import { useState, useMemo } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { SlidersHorizontal, X, ChevronDown } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -148,8 +148,8 @@ export default function Shop() {
   return (
     <>
       <Helmet>
-        <title>Shop All — LUMEA Skincare & Wellness</title>
-        <meta name="description" content="Shop LUMEA's complete range of skincare, supplements, and wellness products formulated for women 35–55." />
+        <title>Shop All — VELANCE Skincare & Wellness</title>
+        <meta name="description" content="Shop VELANCE's complete range of skincare, supplements, and wellness products formulated for women 35–55." />
       </Helmet>
 
       {/* Page header */}

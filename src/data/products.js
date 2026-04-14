@@ -1,13 +1,13 @@
-// LUMEA Product Catalogue — 6 luxury anti-aging skincare products
+﻿// VELANCE Product Catalogue — 6 luxury anti-aging skincare products
 
 export const products = [
   {
-    id: 'lumea-001',
+    id: 'velance-001',
     slug: 'renewal-serum',
-    name: 'Lumea Renewal Serum',
+    name: 'Velance Renewal Serum',
     tagline: 'Visibly firmer skin in 28 days — without retinol irritation',
     shortDescription: 'A concentrated serum built for skin experiencing hormonal change. Targets loss of firmness, fine lines, and the elasticity your skin had five years ago.',
-    description: `Your skin in your 40s and 50s is not aging badly — it is responding to hormonal change. As oestrogen declines, collagen production slows by up to 30% in the first five years of perimenopause, and the skin loses the structural proteins that keep it bouncy and firm. Generic anti-aging serums ignore this entirely.\n\nLumea Renewal Serum is built around this reality. Bakuchiol — the plant-derived retinol alternative with the same clinical results and none of the irritation — works alongside Argireline® and Matrixyl 3000® peptides to stimulate collagen from within. Ceramide Complex rebuilds the barrier that oestrogen decline has compromised. The result is skin that looks and feels structurally younger — not temporarily plumped, but genuinely rebuilt.`,
+    description: `Your skin in your 40s and 50s is not aging badly — it is responding to hormonal change. As oestrogen declines, collagen production slows by up to 30% in the first five years of perimenopause, and the skin loses the structural proteins that keep it bouncy and firm. Generic anti-aging serums ignore this entirely.\n\nVelance Renewal Serum is built around this reality. Bakuchiol — the plant-derived retinol alternative with the same clinical results and none of the irritation — works alongside Argireline® and Matrixyl 3000® peptides to stimulate collagen from within. Ceramide Complex rebuilds the barrier that oestrogen decline has compromised. The result is skin that looks and feels structurally younger — not temporarily plumped, but genuinely rebuilt.`,
     ingredients: [
       { name: 'Bakuchiol 1.5%', benefit: 'Plant-derived retinol alternative. Clinically shown to match retinol results for firming and line reduction without the redness, peeling, or sun sensitivity. Safe for reactive, perimenopausal skin.' },
       { name: 'Argireline® (Acetyl Hexapeptide-3) 5%', benefit: 'Patented peptide that relaxes facial muscle contractions — the root cause of expression lines. Clinically shown to reduce the depth of wrinkles by up to 27% in 4 weeks.' },
@@ -30,7 +30,7 @@ export const products = [
     collectionLabel: 'Skincare',
     tags: ['firming', 'anti-aging', 'serum', 'bestseller', 'hormone-skin', 'peptides', 'bakuchiol'],
     images: [
-      { url: null, alt: 'Lumea Renewal Serum — 30ml frosted glass dropper bottle with gold detail' },
+      { url: null, alt: 'Velance Renewal Serum — 30ml frosted glass dropper bottle with gold detail' },
       { url: null, alt: 'Serum texture — lightweight golden liquid on fingertip' },
       { url: null, alt: 'Key ingredient Bakuchiol botanical source' },
       { url: null, alt: 'Before and after skin firmness 28 days' },
@@ -43,10 +43,10 @@ export const products = [
     isNew: false,
     rating: 4.9,
     reviewCount: 247,
-    sku: 'LM-001',
+    sku: 'VL-001',
   },
   {
-    id: 'lumea-002',
+    id: 'velance-002',
     slug: 'deep-repair-moisture-cream',
     name: 'Deep Repair Moisture Cream',
     tagline: 'For the woman whose skin became dry overnight and never recovered',
@@ -86,10 +86,10 @@ export const products = [
     isNew: false,
     rating: 4.8,
     reviewCount: 189,
-    sku: 'LM-002',
+    sku: 'VL-002',
   },
   {
-    id: 'lumea-003',
+    id: 'velance-003',
     slug: 'midnight-resurfacing-mask',
     name: 'Midnight Resurfacing Mask',
     tagline: 'Wake up to the skin you had five years ago',
@@ -129,10 +129,10 @@ export const products = [
     isNew: false,
     rating: 4.9,
     reviewCount: 163,
-    sku: 'LM-003',
+    sku: 'VL-003',
   },
   {
-    id: 'lumea-004',
+    id: 'velance-004',
     slug: 'brightening-eye-elixir',
     name: 'Brightening Eye Élixir',
     tagline: 'For the tiredness that sleep cannot fix',
@@ -172,15 +172,15 @@ export const products = [
     isNew: true,
     rating: 4.7,
     reviewCount: 94,
-    sku: 'LM-004',
+    sku: 'VL-004',
   },
   {
-    id: 'lumea-005',
+    id: 'velance-005',
     slug: 'vitamin-c-radiance-serum',
     name: 'Vitamin C Radiance Serum',
     tagline: 'The glow your skin lost. Restored in 14 days.',
     shortDescription: 'A stabilised Vitamin C serum with the clinical potency of SkinCeuticals C E Ferulic — formulated for the dull, uneven skin tone that hormonal change accelerates.',
-    description: `Every dermatologist recommends Vitamin C. Most specifically recommend SkinCeuticals C E Ferulic, which starts at €185 for 30ml. The formulation is not a secret — L-Ascorbic Acid at 15%, Ferulic Acid, Vitamin E, pH 2.5–3.0. What makes it effective is the combination and the stability. Lumea Vitamin C Radiance Serum replicates this formulation precisely, with one addition: Hyaluronic Acid to prevent the dryness that pure Vitamin C serums cause in skin that is already dehydrated from hormonal change.\n\nThe result is a clinically potent brightening serum that addresses the three forms of dullness that skin over 40 experiences: oxidative damage from sun exposure, pigmentation from hormonal fluctuation, and the greyness that comes from slowed cell turnover. Used every morning under moisturiser, it is the single highest-impact addition most women can make to their routine.`,
+    description: `Every dermatologist recommends Vitamin C. Most specifically recommend SkinCeuticals C E Ferulic, which starts at €185 for 30ml. The formulation is not a secret — L-Ascorbic Acid at 15%, Ferulic Acid, Vitamin E, pH 2.5–3.0. What makes it effective is the combination and the stability. Velance Vitamin C Radiance Serum replicates this formulation precisely, with one addition: Hyaluronic Acid to prevent the dryness that pure Vitamin C serums cause in skin that is already dehydrated from hormonal change.\n\nThe result is a clinically potent brightening serum that addresses the three forms of dullness that skin over 40 experiences: oxidative damage from sun exposure, pigmentation from hormonal fluctuation, and the greyness that comes from slowed cell turnover. Used every morning under moisturiser, it is the single highest-impact addition most women can make to their routine.`,
     ingredients: [
       { name: 'L-Ascorbic Acid 15% (stabilised, pH 2.8)', benefit: 'The gold-standard form of Vitamin C — the only one with extensive clinical evidence for brightening, collagen stimulation, and photoprotection. Stabilised to prevent oxidation.' },
       { name: 'Ferulic Acid 0.5%', benefit: 'Triples the effectiveness of Vitamin C and doubles its photoprotective capacity. The combination of L-Ascorbic Acid + Ferulic Acid is the most clinically validated brightening duo in skincare.' },
@@ -215,10 +215,10 @@ export const products = [
     isNew: true,
     rating: 4.8,
     reviewCount: 112,
-    sku: 'LM-005',
+    sku: 'VL-005',
   },
   {
-    id: 'lumea-006',
+    id: 'velance-006',
     slug: 'neck-decolletage-firming-cream',
     name: 'Neck & Décolletage Firming Cream',
     tagline: 'The product everyone forgets. Until they see their neck in a photo.',
@@ -258,7 +258,7 @@ export const products = [
     isNew: false,
     rating: 4.6,
     reviewCount: 78,
-    sku: 'LM-006',
+    sku: 'VL-006',
   },
 ]
 
@@ -270,17 +270,17 @@ export const getHeroProduct = () => products.find(p => p.isHero)
 export const getNewProducts = () => products.filter(p => p.isNew)
 
 export const mockReviews = {
-  'lumea-001': [
+  'velance-001': [
     { id: 1, name: 'Catherine M.', location: 'Dublin, Ireland', rating: 5, date: '2026-02-14', verified: true, body: 'I have been using this for 6 weeks and my skin is genuinely firmer. Not "I think I can see something" — actually, measurably firmer. My facialist noticed before I even mentioned it.' },
     { id: 2, name: 'Isabelle R.', location: 'Lyon, France', rating: 5, date: '2026-01-28', verified: true, body: 'I was sceptical of bakuchiol but everything I read said the clinical evidence matches retinol. After 4 weeks I understand. No irritation, and my skin looks the best it has in years.' },
     { id: 3, name: 'Sarah K.', location: 'London, UK', rating: 5, date: '2026-01-10', verified: true, body: 'The copy on this website sold me before the product did — finally a brand that actually talks about what perimenopause does to your skin. The serum itself is extraordinary.' },
     { id: 4, name: 'Annika V.', location: 'Amsterdam, Netherlands', rating: 4, date: '2025-12-22', verified: true, body: 'Excellent product. Takes about 3 weeks to see results so stick with it. The packaging is genuinely beautiful — feels worth the price before you even open it.' },
   ],
-  'lumea-002': [
+  'velance-002': [
     { id: 1, name: 'Margaret O.', location: 'Cork, Ireland', rating: 5, date: '2026-02-08', verified: true, body: 'I have tried every moisturiser. This is the first one that actually lasts past 11am without reapplying. My skin genuinely stays hydrated all day.' },
     { id: 2, name: 'Claudine B.', location: 'Paris, France', rating: 5, date: '2026-01-19', verified: true, body: 'The texture is extraordinary — absorbs immediately, no residue, and my skin looks plump and dewy even without makeup. I have recommended it to everyone I know.' },
   ],
-  'lumea-003': [
+  'velance-003': [
     { id: 1, name: 'Helen T.', location: 'Edinburgh, UK', rating: 5, date: '2026-02-20', verified: true, body: 'I wake up and my husband says I look like I had a facial. Twice a week, leave it on, go to sleep. That is it. My skin has not looked this good in a decade.' },
     { id: 2, name: 'Laura M.', location: 'Madrid, Spain', rating: 5, date: '2026-01-31', verified: true, body: 'I was nervous about acids on my sensitive skin. Absolutely no reaction — just glowing, smooth skin every morning I use it. Perfect formulation.' },
   ],

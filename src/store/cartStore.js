@@ -1,4 +1,4 @@
-import { create } from 'zustand'
+﻿import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
 const useCartStore = create(
@@ -82,7 +82,7 @@ const useCartStore = create(
       },
     }),
     {
-      name: 'lumea-cart',
+      name: 'velance-cart',
       partialize: (state) => ({ items: state.items }),
     }
   )
